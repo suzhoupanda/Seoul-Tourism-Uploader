@@ -14,6 +14,73 @@
 		BD24AE9C202EABF0001DB37A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD24AE9A202EABF0001DB37A /* LaunchScreen.storyboard */; };
 		BD24AEA7202EABF0001DB37A /* Seoul_Tourism_UploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24AEA6202EABF0001DB37A /* Seoul_Tourism_UploaderTests.swift */; };
 		BD24AEB2202EABF0001DB37A /* Seoul_Tourism_UploaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24AEB1202EABF0001DB37A /* Seoul_Tourism_UploaderUITests.swift */; };
+		BD24AEC2202EAC26001DB37A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD24AEC1202EAC26001DB37A /* CloudKit.framework */; };
+		BD24AEC4202EAF12001DB37A /* FlickrFoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEC3202EAF12001DB37A /* FlickrFoods.plist */; };
+		BD24AEC9202EE503001DB37A /* RemoteRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24AEC8202EE503001DB37A /* RemoteRecords.swift */; };
+		BD24AECB202EE55F001DB37A /* CKHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24AECA202EE55F001DB37A /* CKHelper.swift */; };
+		BD24AECD202EE622001DB37A /* RemoteFlickrField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24AECC202EE622001DB37A /* RemoteFlickrField.swift */; };
+		BD24AF62202EF129001DB37A /* bulgogi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEF4202EF01E001DB37A /* bulgogi1.jpg */; };
+		BD24AF63202EF136001DB37A /* bulgogi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF19202EF020001DB37A /* bulgogi2.jpg */; };
+		BD24AF64202EF144001DB37A /* bulgogi3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEE2202EF01D001DB37A /* bulgogi3.jpg */; };
+		BD24AF65202EF151001DB37A /* bulgogi4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AED9202EF01C001DB37A /* bulgogi4.jpg */; };
+		BD24AF66202EF15B001DB37A /* bulgogi5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF16202EF020001DB37A /* bulgogi5.jpg */; };
+		BD24AF67202EF160001DB37A /* bulgogi6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF43202EF023001DB37A /* bulgogi6.jpg */; };
+		BD24AF68202EF166001DB37A /* bulgogi7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF46202EF023001DB37A /* bulgogi7.jpg */; };
+		BD24AF69202EF182001DB37A /* dotorimuk1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEE0202EF01D001DB37A /* dotorimuk1.jpg */; };
+		BD24AF6A202EF186001DB37A /* dotorimuk2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF28202EF021001DB37A /* dotorimuk2.jpg */; };
+		BD24AF6B202EF18E001DB37A /* dotorimuk3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF03202EF01F001DB37A /* dotorimuk3.jpg */; };
+		BD24AF6C202EF193001DB37A /* dotorimuk4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEF7202EF01E001DB37A /* dotorimuk4.jpg */; };
+		BD24AF6D202EF198001DB37A /* dotorimuk5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF2B202EF021001DB37A /* dotorimuk5.jpg */; };
+		BD24AF6E202EF1A2001DB37A /* gamjatang1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF3A202EF022001DB37A /* gamjatang1.jpg */; };
+		BD24AF6F202EF1AE001DB37A /* gamjatang2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF32202EF021001DB37A /* gamjatang2.jpg */; };
+		BD24AF70202EF1C4001DB37A /* gamjatang3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEFA202EF01E001DB37A /* gamjatang3.jpg */; };
+		BD24AF71202EF1CA001DB37A /* gimbap1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF38202EF022001DB37A /* gimbap1.jpg */; };
+		BD24AF72202EF1CF001DB37A /* gimbap2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEF1202EF01D001DB37A /* gimbap2.jpg */; };
+		BD24AF73202EF1DD001DB37A /* gimbap3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF5A202EF025001DB37A /* gimbap3.jpg */; };
+		BD24AF74202EFCC2001DB37A /* gimbap4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AED3202EF01C001DB37A /* gimbap4.jpg */; };
+		BD24AF75202EFCC6001DB37A /* gimbap5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF5D202EF025001DB37A /* gimbap5.jpg */; };
+		BD24AF76202EFCCA001DB37A /* japchae1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEEC202EF01D001DB37A /* japchae1.jpg */; };
+		BD24AF77202EFCCF001DB37A /* japchae2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEFD202EF01E001DB37A /* japchae2.jpg */; };
+		BD24AF78202EFCD2001DB37A /* japchae3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF3D202EF022001DB37A /* japchae3.jpg */; };
+		BD24AF79202EFCD7001DB37A /* japchae4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEE5202EF01D001DB37A /* japchae4.jpg */; };
+		BD24AF7A202EFCDF001DB37A /* japchae5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF60202EF026001DB37A /* japchae5.jpg */; };
+		BD24AF7B202EFCE3001DB37A /* japchae6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF1F202EF020001DB37A /* japchae6.jpg */; };
+		BD24AF7C202EFCE7001DB37A /* jjambbong1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF11202EF020001DB37A /* jjambbong1.jpg */; };
+		BD24AF7D202EFCEB001DB37A /* jjambbong2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF23202EF021001DB37A /* jjambbong2.jpg */; };
+		BD24AF7E202EFCF2001DB37A /* jjambong3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF25202EF021001DB37A /* jjambong3.jpg */; };
+		BD24AF7F202EFCFF001DB37A /* kimchi_stew1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF58202EF025001DB37A /* kimchi_stew1.jpg */; };
+		BD24AF80202EFD03001DB37A /* kimchi_stew2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF13202EF020001DB37A /* kimchi_stew2.jpg */; };
+		BD24AF81202EFD06001DB37A /* kimchi_stew3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF09202EF01F001DB37A /* kimchi_stew3.jpg */; };
+		BD24AF82202EFD09001DB37A /* korean_barbecue1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF00202EF01F001DB37A /* korean_barbecue1.jpg */; };
+		BD24AF83202EFD0D001DB37A /* korean_barbecue2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF34202EF022001DB37A /* korean_barbecue2.jpg */; };
+		BD24AF84202EFD10001DB37A /* korean_barbecue3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF4B202EF023001DB37A /* korean_barbecue3.jpg */; };
+		BD24AF85202EFD18001DB37A /* korean_barbecue4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF06202EF01F001DB37A /* korean_barbecue4.jpg */; };
+		BD24AF86202EFD1C001DB37A /* korean_barbecue5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AED0202EF01C001DB37A /* korean_barbecue5.jpg */; };
+		BD24AF87202EFD20001DB37A /* naengmyeon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF4F202EF024001DB37A /* naengmyeon1.jpg */; };
+		BD24AF88202EFD2E001DB37A /* naengmyeon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF1D202EF020001DB37A /* naengmyeon2.jpg */; };
+		BD24AF89202EFD31001DB37A /* naengmyeon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEEF202EF01D001DB37A /* naengmyeon3.jpg */; };
+		BD24AF8A202EFD34001DB37A /* naengmyeon5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF41202EF022001DB37A /* naengmyeon5.jpg */; };
+		BD24AF8B202EFD37001DB37A /* tteok_bokki1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF0D202EF01F001DB37A /* tteok_bokki1.jpg */; };
+		BD24AF8C202EFD3E001DB37A /* tteok_bokki2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF2E202EF021001DB37A /* tteok_bokki2.jpg */; };
+		BD24AF8D202EFD41001DB37A /* tteok_bokki3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AED6202EF01C001DB37A /* tteok_bokki3.jpg */; };
+		BD24AF8E202EFD45001DB37A /* tteok_bokki4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF54202EF024001DB37A /* tteok_bokki4.jpg */; };
+		BD24AF8F202EFD48001DB37A /* tteok_bokki5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEE8202EF01D001DB37A /* tteok_bokki5.jpg */; };
+		BD24AF90202EFD4F001DB37A /* tteok_bokki6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF51202EF024001DB37A /* tteok_bokki6.jpg */; };
+		BD24AF91202EFD52001DB37A /* tteok_bokki7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AEDC202EF01C001DB37A /* tteok_bokki7.jpg */; };
+		BD24AF93202F02BB001DB37A /* FlickrImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24AF92202F02BA001DB37A /* FlickrImage.swift */; };
+		BD24AF97202F074A001DB37A /* doenjang1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF96202F0747001DB37A /* doenjang1.jpg */; };
+		BD24AF99202F084E001DB37A /* doenjang2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF98202F084A001DB37A /* doenjang2.jpg */; };
+		BD24AF9B202F0B45001DB37A /* deonjang3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF9A202F0B40001DB37A /* deonjang3.jpg */; };
+		BD24AF9D202F0C2C001DB37A /* doenjang4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF9C202F0C28001DB37A /* doenjang4.jpg */; };
+		BD24AF9F202F0CDB001DB37A /* samgyetang1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AF9E202F0CD5001DB37A /* samgyetang1.jpg */; };
+		BD24AFA2202F0DFE001DB37A /* samgyetang3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AFA1202F0DF7001DB37A /* samgyetang3.jpg */; };
+		BD24AFA4202F0E6E001DB37A /* samgyetang4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AFA3202F0E6A001DB37A /* samgyetang4.jpg */; };
+		BD24AFA6202F0F01001DB37A /* samgyetang6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AFA5202F0EFD001DB37A /* samgyetang6.jpg */; };
+		BD24AFA8202F0F69001DB37A /* samgyetang5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AFA7202F0F65001DB37A /* samgyetang5.jpg */; };
+		BD24AFAA202F0FBF001DB37A /* samgyetang7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AFA9202F0FBC001DB37A /* samgyetang7.jpg */; };
+		BD24AFAC202F105E001DB37A /* samyetang8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24AFAB202F104E001DB37A /* samyetang8.jpg */; };
+		BD24AFAE202F1834001DB37A /* FlickrImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24AFAD202F1834001DB37A /* FlickrImageCell.swift */; };
+		BD24AFB0202F3FBA001DB37A /* FoodChoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24AFAF202F3FBA001DB37A /* FoodChoiceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +114,125 @@
 		BD24AEAD202EABF0001DB37A /* Seoul Tourism UploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seoul Tourism UploaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD24AEB1202EABF0001DB37A /* Seoul_Tourism_UploaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seoul_Tourism_UploaderUITests.swift; sourceTree = "<group>"; };
 		BD24AEB3202EABF0001DB37A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD24AEBF202EAC23001DB37A /* Seoul Tourism Uploader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Seoul Tourism Uploader.entitlements"; sourceTree = "<group>"; };
+		BD24AEC1202EAC26001DB37A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		BD24AEC3202EAF12001DB37A /* FlickrFoods.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FlickrFoods.plist; sourceTree = "<group>"; };
+		BD24AEC8202EE503001DB37A /* RemoteRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRecords.swift; sourceTree = "<group>"; };
+		BD24AECA202EE55F001DB37A /* CKHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKHelper.swift; sourceTree = "<group>"; };
+		BD24AECC202EE622001DB37A /* RemoteFlickrField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFlickrField.swift; sourceTree = "<group>"; };
+		BD24AED0202EF01C001DB37A /* korean_barbecue5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = korean_barbecue5.jpg; sourceTree = "<group>"; };
+		BD24AED1202EF01C001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AED3202EF01C001DB37A /* gimbap4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gimbap4.jpg; sourceTree = "<group>"; };
+		BD24AED4202EF01C001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AED6202EF01C001DB37A /* tteok_bokki3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tteok_bokki3.jpg; sourceTree = "<group>"; };
+		BD24AED7202EF01C001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AED9202EF01C001DB37A /* bulgogi4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bulgogi4.jpg; sourceTree = "<group>"; };
+		BD24AEDA202EF01C001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEDC202EF01C001DB37A /* tteok_bokki7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tteok_bokki7.jpg; sourceTree = "<group>"; };
+		BD24AEDD202EF01C001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEDF202EF01D001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEE0202EF01D001DB37A /* dotorimuk1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dotorimuk1.jpg; sourceTree = "<group>"; };
+		BD24AEE2202EF01D001DB37A /* bulgogi3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bulgogi3.jpg; sourceTree = "<group>"; };
+		BD24AEE3202EF01D001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEE5202EF01D001DB37A /* japchae4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japchae4.jpg; sourceTree = "<group>"; };
+		BD24AEE6202EF01D001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEE8202EF01D001DB37A /* tteok_bokki5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tteok_bokki5.jpg; sourceTree = "<group>"; };
+		BD24AEE9202EF01D001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEEB202EF01D001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEEC202EF01D001DB37A /* japchae1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japchae1.jpg; sourceTree = "<group>"; };
+		BD24AEEE202EF01D001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEEF202EF01D001DB37A /* naengmyeon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naengmyeon3.jpg; sourceTree = "<group>"; };
+		BD24AEF1202EF01D001DB37A /* gimbap2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gimbap2.jpg; sourceTree = "<group>"; };
+		BD24AEF2202EF01D001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEF4202EF01E001DB37A /* bulgogi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bulgogi1.jpg; sourceTree = "<group>"; };
+		BD24AEF5202EF01E001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEF7202EF01E001DB37A /* dotorimuk4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dotorimuk4.jpg; sourceTree = "<group>"; };
+		BD24AEF8202EF01E001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEFA202EF01E001DB37A /* gamjatang3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gamjatang3.jpg; sourceTree = "<group>"; };
+		BD24AEFB202EF01E001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AEFD202EF01E001DB37A /* japchae2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japchae2.jpg; sourceTree = "<group>"; };
+		BD24AEFE202EF01E001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF00202EF01F001DB37A /* korean_barbecue1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = korean_barbecue1.jpg; sourceTree = "<group>"; };
+		BD24AF01202EF01F001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF03202EF01F001DB37A /* dotorimuk3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dotorimuk3.jpg; sourceTree = "<group>"; };
+		BD24AF04202EF01F001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF06202EF01F001DB37A /* korean_barbecue4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = korean_barbecue4.jpg; sourceTree = "<group>"; };
+		BD24AF07202EF01F001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF09202EF01F001DB37A /* kimchi_stew3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimchi_stew3.jpg; sourceTree = "<group>"; };
+		BD24AF0A202EF01F001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF0B202EF01F001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents.json; path = "Seoul Tourism Uploader/Assets.xcassets/Contents.json"; sourceTree = SOURCE_ROOT; };
+		BD24AF0D202EF01F001DB37A /* tteok_bokki1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tteok_bokki1.jpg; sourceTree = "<group>"; };
+		BD24AF0E202EF01F001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF10202EF020001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF11202EF020001DB37A /* jjambbong1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jjambbong1.jpg; sourceTree = "<group>"; };
+		BD24AF13202EF020001DB37A /* kimchi_stew2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimchi_stew2.jpg; sourceTree = "<group>"; };
+		BD24AF14202EF020001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF16202EF020001DB37A /* bulgogi5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bulgogi5.jpg; sourceTree = "<group>"; };
+		BD24AF17202EF020001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF19202EF020001DB37A /* bulgogi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bulgogi2.jpg; sourceTree = "<group>"; };
+		BD24AF1A202EF020001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF1C202EF020001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF1D202EF020001DB37A /* naengmyeon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naengmyeon2.jpg; sourceTree = "<group>"; };
+		BD24AF1F202EF020001DB37A /* japchae6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japchae6.jpg; sourceTree = "<group>"; };
+		BD24AF20202EF020001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF22202EF021001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF23202EF021001DB37A /* jjambbong2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jjambbong2.jpg; sourceTree = "<group>"; };
+		BD24AF25202EF021001DB37A /* jjambong3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jjambong3.jpg; sourceTree = "<group>"; };
+		BD24AF26202EF021001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF28202EF021001DB37A /* dotorimuk2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dotorimuk2.jpg; sourceTree = "<group>"; };
+		BD24AF29202EF021001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF2B202EF021001DB37A /* dotorimuk5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dotorimuk5.jpg; sourceTree = "<group>"; };
+		BD24AF2C202EF021001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF2E202EF021001DB37A /* tteok_bokki2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tteok_bokki2.jpg; sourceTree = "<group>"; };
+		BD24AF2F202EF021001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF31202EF021001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF32202EF021001DB37A /* gamjatang2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gamjatang2.jpg; sourceTree = "<group>"; };
+		BD24AF34202EF022001DB37A /* korean_barbecue2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = korean_barbecue2.jpg; sourceTree = "<group>"; };
+		BD24AF35202EF022001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF37202EF022001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF38202EF022001DB37A /* gimbap1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gimbap1.jpg; sourceTree = "<group>"; };
+		BD24AF3A202EF022001DB37A /* gamjatang1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gamjatang1.jpg; sourceTree = "<group>"; };
+		BD24AF3B202EF022001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF3D202EF022001DB37A /* japchae3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japchae3.jpg; sourceTree = "<group>"; };
+		BD24AF3E202EF022001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF40202EF022001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF41202EF022001DB37A /* naengmyeon5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naengmyeon5.jpg; sourceTree = "<group>"; };
+		BD24AF43202EF023001DB37A /* bulgogi6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bulgogi6.jpg; sourceTree = "<group>"; };
+		BD24AF44202EF023001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF46202EF023001DB37A /* bulgogi7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bulgogi7.jpg; sourceTree = "<group>"; };
+		BD24AF47202EF023001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF49202EF023001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF4B202EF023001DB37A /* korean_barbecue3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = korean_barbecue3.jpg; sourceTree = "<group>"; };
+		BD24AF4C202EF023001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF4E202EF024001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF4F202EF024001DB37A /* naengmyeon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naengmyeon1.jpg; sourceTree = "<group>"; };
+		BD24AF51202EF024001DB37A /* tteok_bokki6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tteok_bokki6.jpg; sourceTree = "<group>"; };
+		BD24AF52202EF024001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF54202EF024001DB37A /* tteok_bokki4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tteok_bokki4.jpg; sourceTree = "<group>"; };
+		BD24AF55202EF024001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF57202EF025001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF58202EF025001DB37A /* kimchi_stew1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimchi_stew1.jpg; sourceTree = "<group>"; };
+		BD24AF5A202EF025001DB37A /* gimbap3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gimbap3.jpg; sourceTree = "<group>"; };
+		BD24AF5B202EF025001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF5D202EF025001DB37A /* gimbap5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gimbap5.jpg; sourceTree = "<group>"; };
+		BD24AF5E202EF025001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF60202EF026001DB37A /* japchae5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japchae5.jpg; sourceTree = "<group>"; };
+		BD24AF61202EF026001DB37A /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BD24AF92202F02BA001DB37A /* FlickrImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrImage.swift; sourceTree = "<group>"; };
+		BD24AF96202F0747001DB37A /* doenjang1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doenjang1.jpg; sourceTree = "<group>"; };
+		BD24AF98202F084A001DB37A /* doenjang2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doenjang2.jpg; sourceTree = "<group>"; };
+		BD24AF9A202F0B40001DB37A /* deonjang3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deonjang3.jpg; sourceTree = "<group>"; };
+		BD24AF9C202F0C28001DB37A /* doenjang4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doenjang4.jpg; sourceTree = "<group>"; };
+		BD24AF9E202F0CD5001DB37A /* samgyetang1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samgyetang1.jpg; sourceTree = "<group>"; };
+		BD24AFA0202F0D65001DB37A /* samgyetang2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samgyetang2.jpg; sourceTree = "<group>"; };
+		BD24AFA1202F0DF7001DB37A /* samgyetang3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samgyetang3.jpg; sourceTree = "<group>"; };
+		BD24AFA3202F0E6A001DB37A /* samgyetang4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samgyetang4.jpg; sourceTree = "<group>"; };
+		BD24AFA5202F0EFD001DB37A /* samgyetang6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samgyetang6.jpg; sourceTree = "<group>"; };
+		BD24AFA7202F0F65001DB37A /* samgyetang5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samgyetang5.jpg; sourceTree = "<group>"; };
+		BD24AFA9202F0FBC001DB37A /* samgyetang7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samgyetang7.jpg; sourceTree = "<group>"; };
+		BD24AFAB202F104E001DB37A /* samyetang8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samyetang8.jpg; sourceTree = "<group>"; };
+		BD24AFAD202F1834001DB37A /* FlickrImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrImageCell.swift; sourceTree = "<group>"; };
+		BD24AFAF202F3FBA001DB37A /* FoodChoiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodChoiceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +240,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD24AEC2202EAC26001DB37A /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +268,7 @@
 				BD24AEA5202EABF0001DB37A /* Seoul Tourism UploaderTests */,
 				BD24AEB0202EABF0001DB37A /* Seoul Tourism UploaderUITests */,
 				BD24AE8F202EABF0001DB37A /* Products */,
+				BD24AEC0202EAC26001DB37A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +285,17 @@
 		BD24AE90202EABF0001DB37A /* Seoul Tourism Uploader */ = {
 			isa = PBXGroup;
 			children = (
+				BD24AEBF202EAC23001DB37A /* Seoul Tourism Uploader.entitlements */,
+				BD24AECE202EF006001DB37A /* Images */,
 				BD24AE91202EABF0001DB37A /* AppDelegate.swift */,
+				BD24AFAF202F3FBA001DB37A /* FoodChoiceController.swift */,
+				BD24AFAD202F1834001DB37A /* FlickrImageCell.swift */,
+				BD24AF92202F02BA001DB37A /* FlickrImage.swift */,
+				BD24AECC202EE622001DB37A /* RemoteFlickrField.swift */,
+				BD24AEC3202EAF12001DB37A /* FlickrFoods.plist */,
 				BD24AE93202EABF0001DB37A /* ViewController.swift */,
+				BD24AECA202EE55F001DB37A /* CKHelper.swift */,
+				BD24AEC8202EE503001DB37A /* RemoteRecords.swift */,
 				BD24AE95202EABF0001DB37A /* Main.storyboard */,
 				BD24AE98202EABF0001DB37A /* Assets.xcassets */,
 				BD24AE9A202EABF0001DB37A /* LaunchScreen.storyboard */,
@@ -124,6 +321,572 @@
 			);
 			path = "Seoul Tourism UploaderUITests";
 			sourceTree = "<group>";
+		};
+		BD24AEC0202EAC26001DB37A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEC1202EAC26001DB37A /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD24AECE202EF006001DB37A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AFAB202F104E001DB37A /* samyetang8.jpg */,
+				BD24AFA9202F0FBC001DB37A /* samgyetang7.jpg */,
+				BD24AFA7202F0F65001DB37A /* samgyetang5.jpg */,
+				BD24AFA5202F0EFD001DB37A /* samgyetang6.jpg */,
+				BD24AFA3202F0E6A001DB37A /* samgyetang4.jpg */,
+				BD24AFA1202F0DF7001DB37A /* samgyetang3.jpg */,
+				BD24AFA0202F0D65001DB37A /* samgyetang2.jpg */,
+				BD24AF9E202F0CD5001DB37A /* samgyetang1.jpg */,
+				BD24AF9C202F0C28001DB37A /* doenjang4.jpg */,
+				BD24AF9A202F0B40001DB37A /* deonjang3.jpg */,
+				BD24AF98202F084A001DB37A /* doenjang2.jpg */,
+				BD24AF96202F0747001DB37A /* doenjang1.jpg */,
+				BD24AF48202EF023001DB37A /* AppIcon.appiconset */,
+				BD24AEF3202EF01E001DB37A /* bulgogi1.imageset */,
+				BD24AF18202EF020001DB37A /* bulgogi2.imageset */,
+				BD24AEE1202EF01D001DB37A /* bulgogi3.imageset */,
+				BD24AED8202EF01C001DB37A /* bulgogi4.imageset */,
+				BD24AF15202EF020001DB37A /* bulgogi5.imageset */,
+				BD24AF42202EF023001DB37A /* bulgogi6.imageset */,
+				BD24AF45202EF023001DB37A /* bulgogi7.imageset */,
+				BD24AF0B202EF01F001DB37A /* Contents.json */,
+				BD24AEDE202EF01D001DB37A /* dotorimuk1.imageset */,
+				BD24AF27202EF021001DB37A /* dotorimuk2.imageset */,
+				BD24AF02202EF01F001DB37A /* dotorimuk3.imageset */,
+				BD24AEF6202EF01E001DB37A /* dotorimuk4.imageset */,
+				BD24AF2A202EF021001DB37A /* dotorimuk5.imageset */,
+				BD24AF39202EF022001DB37A /* gamjatang1.imageset */,
+				BD24AF30202EF021001DB37A /* gamjatang2.imageset */,
+				BD24AEF9202EF01E001DB37A /* gamjatang3.imageset */,
+				BD24AF36202EF022001DB37A /* gimbap1.imageset */,
+				BD24AEF0202EF01D001DB37A /* gimbap2.imageset */,
+				BD24AF59202EF025001DB37A /* gimbap3.imageset */,
+				BD24AED2202EF01C001DB37A /* gimbap4.imageset */,
+				BD24AF5C202EF025001DB37A /* gimbap5.imageset */,
+				BD24AEEA202EF01D001DB37A /* japchae1.imageset */,
+				BD24AEFC202EF01E001DB37A /* japchae2.imageset */,
+				BD24AF3C202EF022001DB37A /* japchae3.imageset */,
+				BD24AEE4202EF01D001DB37A /* japchae4.imageset */,
+				BD24AF5F202EF026001DB37A /* japchae5.imageset */,
+				BD24AF1E202EF020001DB37A /* japchae6.imageset */,
+				BD24AF0F202EF020001DB37A /* jjambbong1.imageset */,
+				BD24AF21202EF021001DB37A /* jjambbong2.imageset */,
+				BD24AF24202EF021001DB37A /* jjambbong3.imageset */,
+				BD24AF56202EF025001DB37A /* kimchi_stew1.imageset */,
+				BD24AF12202EF020001DB37A /* kimchi_stew2.imageset */,
+				BD24AF08202EF01F001DB37A /* kimchi_stew3.imageset */,
+				BD24AEFF202EF01F001DB37A /* korean_barbecue1.imageset */,
+				BD24AF33202EF022001DB37A /* korean_barbecue2.imageset */,
+				BD24AF4A202EF023001DB37A /* korean_barbecue3.imageset */,
+				BD24AF05202EF01F001DB37A /* korean_barbecue4.imageset */,
+				BD24AECF202EF01C001DB37A /* korean_barbecue5.imageset */,
+				BD24AF4D202EF024001DB37A /* naengmyeon1.imageset */,
+				BD24AF1B202EF020001DB37A /* naengmyeon2.imageset */,
+				BD24AEED202EF01D001DB37A /* naengmyeon3.imageset */,
+				BD24AF3F202EF022001DB37A /* naengmyeon5.imageset */,
+				BD24AF0C202EF01F001DB37A /* tteok_bokki1.imageset */,
+				BD24AF2D202EF021001DB37A /* tteok_bokki2.imageset */,
+				BD24AED5202EF01C001DB37A /* tteok_bokki3.imageset */,
+				BD24AF53202EF024001DB37A /* tteok_bokki4.imageset */,
+				BD24AEE7202EF01D001DB37A /* tteok_bokki5.imageset */,
+				BD24AF50202EF024001DB37A /* tteok_bokki6.imageset */,
+				BD24AEDB202EF01C001DB37A /* tteok_bokki7.imageset */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BD24AECF202EF01C001DB37A /* korean_barbecue5.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AED0202EF01C001DB37A /* korean_barbecue5.jpg */,
+				BD24AED1202EF01C001DB37A /* Contents.json */,
+			);
+			name = korean_barbecue5.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/korean_barbecue5.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AED2202EF01C001DB37A /* gimbap4.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AED3202EF01C001DB37A /* gimbap4.jpg */,
+				BD24AED4202EF01C001DB37A /* Contents.json */,
+			);
+			name = gimbap4.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/gimbap4.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AED5202EF01C001DB37A /* tteok_bokki3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AED6202EF01C001DB37A /* tteok_bokki3.jpg */,
+				BD24AED7202EF01C001DB37A /* Contents.json */,
+			);
+			name = tteok_bokki3.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/tteok_bokki3.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AED8202EF01C001DB37A /* bulgogi4.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AED9202EF01C001DB37A /* bulgogi4.jpg */,
+				BD24AEDA202EF01C001DB37A /* Contents.json */,
+			);
+			name = bulgogi4.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/bulgogi4.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEDB202EF01C001DB37A /* tteok_bokki7.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEDC202EF01C001DB37A /* tteok_bokki7.jpg */,
+				BD24AEDD202EF01C001DB37A /* Contents.json */,
+			);
+			name = tteok_bokki7.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/tteok_bokki7.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEDE202EF01D001DB37A /* dotorimuk1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEDF202EF01D001DB37A /* Contents.json */,
+				BD24AEE0202EF01D001DB37A /* dotorimuk1.jpg */,
+			);
+			name = dotorimuk1.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/dotorimuk1.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEE1202EF01D001DB37A /* bulgogi3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEE2202EF01D001DB37A /* bulgogi3.jpg */,
+				BD24AEE3202EF01D001DB37A /* Contents.json */,
+			);
+			name = bulgogi3.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/bulgogi3.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEE4202EF01D001DB37A /* japchae4.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEE5202EF01D001DB37A /* japchae4.jpg */,
+				BD24AEE6202EF01D001DB37A /* Contents.json */,
+			);
+			name = japchae4.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/japchae4.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEE7202EF01D001DB37A /* tteok_bokki5.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEE8202EF01D001DB37A /* tteok_bokki5.jpg */,
+				BD24AEE9202EF01D001DB37A /* Contents.json */,
+			);
+			name = tteok_bokki5.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/tteok_bokki5.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEEA202EF01D001DB37A /* japchae1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEEB202EF01D001DB37A /* Contents.json */,
+				BD24AEEC202EF01D001DB37A /* japchae1.jpg */,
+			);
+			name = japchae1.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/japchae1.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEED202EF01D001DB37A /* naengmyeon3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEEE202EF01D001DB37A /* Contents.json */,
+				BD24AEEF202EF01D001DB37A /* naengmyeon3.jpg */,
+			);
+			name = naengmyeon3.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/naengmyeon3.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEF0202EF01D001DB37A /* gimbap2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEF1202EF01D001DB37A /* gimbap2.jpg */,
+				BD24AEF2202EF01D001DB37A /* Contents.json */,
+			);
+			name = gimbap2.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/gimbap2.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEF3202EF01E001DB37A /* bulgogi1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEF4202EF01E001DB37A /* bulgogi1.jpg */,
+				BD24AEF5202EF01E001DB37A /* Contents.json */,
+			);
+			name = bulgogi1.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/bulgogi1.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEF6202EF01E001DB37A /* dotorimuk4.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEF7202EF01E001DB37A /* dotorimuk4.jpg */,
+				BD24AEF8202EF01E001DB37A /* Contents.json */,
+			);
+			name = dotorimuk4.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/dotorimuk4.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEF9202EF01E001DB37A /* gamjatang3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEFA202EF01E001DB37A /* gamjatang3.jpg */,
+				BD24AEFB202EF01E001DB37A /* Contents.json */,
+			);
+			name = gamjatang3.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/gamjatang3.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEFC202EF01E001DB37A /* japchae2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AEFD202EF01E001DB37A /* japchae2.jpg */,
+				BD24AEFE202EF01E001DB37A /* Contents.json */,
+			);
+			name = japchae2.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/japchae2.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AEFF202EF01F001DB37A /* korean_barbecue1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF00202EF01F001DB37A /* korean_barbecue1.jpg */,
+				BD24AF01202EF01F001DB37A /* Contents.json */,
+			);
+			name = korean_barbecue1.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/korean_barbecue1.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF02202EF01F001DB37A /* dotorimuk3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF03202EF01F001DB37A /* dotorimuk3.jpg */,
+				BD24AF04202EF01F001DB37A /* Contents.json */,
+			);
+			name = dotorimuk3.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/dotorimuk3.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF05202EF01F001DB37A /* korean_barbecue4.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF06202EF01F001DB37A /* korean_barbecue4.jpg */,
+				BD24AF07202EF01F001DB37A /* Contents.json */,
+			);
+			name = korean_barbecue4.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/korean_barbecue4.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF08202EF01F001DB37A /* kimchi_stew3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF09202EF01F001DB37A /* kimchi_stew3.jpg */,
+				BD24AF0A202EF01F001DB37A /* Contents.json */,
+			);
+			name = kimchi_stew3.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/kimchi_stew3.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF0C202EF01F001DB37A /* tteok_bokki1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF0D202EF01F001DB37A /* tteok_bokki1.jpg */,
+				BD24AF0E202EF01F001DB37A /* Contents.json */,
+			);
+			name = tteok_bokki1.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/tteok_bokki1.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF0F202EF020001DB37A /* jjambbong1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF10202EF020001DB37A /* Contents.json */,
+				BD24AF11202EF020001DB37A /* jjambbong1.jpg */,
+			);
+			name = jjambbong1.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/jjambbong1.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF12202EF020001DB37A /* kimchi_stew2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF13202EF020001DB37A /* kimchi_stew2.jpg */,
+				BD24AF14202EF020001DB37A /* Contents.json */,
+			);
+			name = kimchi_stew2.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/kimchi_stew2.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF15202EF020001DB37A /* bulgogi5.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF16202EF020001DB37A /* bulgogi5.jpg */,
+				BD24AF17202EF020001DB37A /* Contents.json */,
+			);
+			name = bulgogi5.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/bulgogi5.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF18202EF020001DB37A /* bulgogi2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF19202EF020001DB37A /* bulgogi2.jpg */,
+				BD24AF1A202EF020001DB37A /* Contents.json */,
+			);
+			name = bulgogi2.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/bulgogi2.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF1B202EF020001DB37A /* naengmyeon2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF1C202EF020001DB37A /* Contents.json */,
+				BD24AF1D202EF020001DB37A /* naengmyeon2.jpg */,
+			);
+			name = naengmyeon2.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/naengmyeon2.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF1E202EF020001DB37A /* japchae6.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF1F202EF020001DB37A /* japchae6.jpg */,
+				BD24AF20202EF020001DB37A /* Contents.json */,
+			);
+			name = japchae6.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/japchae6.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF21202EF021001DB37A /* jjambbong2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF22202EF021001DB37A /* Contents.json */,
+				BD24AF23202EF021001DB37A /* jjambbong2.jpg */,
+			);
+			name = jjambbong2.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/jjambbong2.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF24202EF021001DB37A /* jjambbong3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF25202EF021001DB37A /* jjambong3.jpg */,
+				BD24AF26202EF021001DB37A /* Contents.json */,
+			);
+			name = jjambbong3.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/jjambbong3.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF27202EF021001DB37A /* dotorimuk2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF28202EF021001DB37A /* dotorimuk2.jpg */,
+				BD24AF29202EF021001DB37A /* Contents.json */,
+			);
+			name = dotorimuk2.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/dotorimuk2.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF2A202EF021001DB37A /* dotorimuk5.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF2B202EF021001DB37A /* dotorimuk5.jpg */,
+				BD24AF2C202EF021001DB37A /* Contents.json */,
+			);
+			name = dotorimuk5.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/dotorimuk5.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF2D202EF021001DB37A /* tteok_bokki2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF2E202EF021001DB37A /* tteok_bokki2.jpg */,
+				BD24AF2F202EF021001DB37A /* Contents.json */,
+			);
+			name = tteok_bokki2.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/tteok_bokki2.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF30202EF021001DB37A /* gamjatang2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF31202EF021001DB37A /* Contents.json */,
+				BD24AF32202EF021001DB37A /* gamjatang2.jpg */,
+			);
+			name = gamjatang2.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/gamjatang2.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF33202EF022001DB37A /* korean_barbecue2.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF34202EF022001DB37A /* korean_barbecue2.jpg */,
+				BD24AF35202EF022001DB37A /* Contents.json */,
+			);
+			name = korean_barbecue2.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/korean_barbecue2.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF36202EF022001DB37A /* gimbap1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF37202EF022001DB37A /* Contents.json */,
+				BD24AF38202EF022001DB37A /* gimbap1.jpg */,
+			);
+			name = gimbap1.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/gimbap1.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF39202EF022001DB37A /* gamjatang1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF3A202EF022001DB37A /* gamjatang1.jpg */,
+				BD24AF3B202EF022001DB37A /* Contents.json */,
+			);
+			name = gamjatang1.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/gamjatang1.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF3C202EF022001DB37A /* japchae3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF3D202EF022001DB37A /* japchae3.jpg */,
+				BD24AF3E202EF022001DB37A /* Contents.json */,
+			);
+			name = japchae3.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/japchae3.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF3F202EF022001DB37A /* naengmyeon5.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF40202EF022001DB37A /* Contents.json */,
+				BD24AF41202EF022001DB37A /* naengmyeon5.jpg */,
+			);
+			name = naengmyeon5.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/naengmyeon5.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF42202EF023001DB37A /* bulgogi6.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF43202EF023001DB37A /* bulgogi6.jpg */,
+				BD24AF44202EF023001DB37A /* Contents.json */,
+			);
+			name = bulgogi6.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/bulgogi6.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF45202EF023001DB37A /* bulgogi7.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF46202EF023001DB37A /* bulgogi7.jpg */,
+				BD24AF47202EF023001DB37A /* Contents.json */,
+			);
+			name = bulgogi7.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/bulgogi7.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF48202EF023001DB37A /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF49202EF023001DB37A /* Contents.json */,
+			);
+			name = AppIcon.appiconset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/AppIcon.appiconset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF4A202EF023001DB37A /* korean_barbecue3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF4B202EF023001DB37A /* korean_barbecue3.jpg */,
+				BD24AF4C202EF023001DB37A /* Contents.json */,
+			);
+			name = korean_barbecue3.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/korean_barbecue3.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF4D202EF024001DB37A /* naengmyeon1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF4E202EF024001DB37A /* Contents.json */,
+				BD24AF4F202EF024001DB37A /* naengmyeon1.jpg */,
+			);
+			name = naengmyeon1.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/naengmyeon1.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF50202EF024001DB37A /* tteok_bokki6.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF51202EF024001DB37A /* tteok_bokki6.jpg */,
+				BD24AF52202EF024001DB37A /* Contents.json */,
+			);
+			name = tteok_bokki6.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/tteok_bokki6.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF53202EF024001DB37A /* tteok_bokki4.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF54202EF024001DB37A /* tteok_bokki4.jpg */,
+				BD24AF55202EF024001DB37A /* Contents.json */,
+			);
+			name = tteok_bokki4.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/tteok_bokki4.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF56202EF025001DB37A /* kimchi_stew1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF57202EF025001DB37A /* Contents.json */,
+				BD24AF58202EF025001DB37A /* kimchi_stew1.jpg */,
+			);
+			name = kimchi_stew1.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/kimchi_stew1.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF59202EF025001DB37A /* gimbap3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF5A202EF025001DB37A /* gimbap3.jpg */,
+				BD24AF5B202EF025001DB37A /* Contents.json */,
+			);
+			name = gimbap3.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/gimbap3.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF5C202EF025001DB37A /* gimbap5.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF5D202EF025001DB37A /* gimbap5.jpg */,
+				BD24AF5E202EF025001DB37A /* Contents.json */,
+			);
+			name = gimbap5.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/gimbap5.imageset";
+			sourceTree = SOURCE_ROOT;
+		};
+		BD24AF5F202EF026001DB37A /* japchae5.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BD24AF60202EF026001DB37A /* japchae5.jpg */,
+				BD24AF61202EF026001DB37A /* Contents.json */,
+			);
+			name = japchae5.imageset;
+			path = "Seoul Tourism Uploader/Assets.xcassets/japchae5.imageset";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -194,6 +957,14 @@
 					BD24AE8D202EABF0001DB37A = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					BD24AEA1202EABF0001DB37A = {
 						CreatedOnToolsVersion = 9.0;
@@ -232,9 +1003,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD24AF6D202EF198001DB37A /* dotorimuk5.jpg in Resources */,
+				BD24AF83202EFD0D001DB37A /* korean_barbecue2.jpg in Resources */,
+				BD24AF7B202EFCE3001DB37A /* japchae6.jpg in Resources */,
+				BD24AF8C202EFD3E001DB37A /* tteok_bokki2.jpg in Resources */,
+				BD24AF72202EF1CF001DB37A /* gimbap2.jpg in Resources */,
+				BD24AF68202EF166001DB37A /* bulgogi7.jpg in Resources */,
+				BD24AF80202EFD03001DB37A /* kimchi_stew2.jpg in Resources */,
+				BD24AF65202EF151001DB37A /* bulgogi4.jpg in Resources */,
+				BD24AF8D202EFD41001DB37A /* tteok_bokki3.jpg in Resources */,
 				BD24AE9C202EABF0001DB37A /* LaunchScreen.storyboard in Resources */,
+				BD24AF6F202EF1AE001DB37A /* gamjatang2.jpg in Resources */,
+				BD24AF76202EFCCA001DB37A /* japchae1.jpg in Resources */,
+				BD24AF8B202EFD37001DB37A /* tteok_bokki1.jpg in Resources */,
+				BD24AF70202EF1C4001DB37A /* gamjatang3.jpg in Resources */,
+				BD24AFA8202F0F69001DB37A /* samgyetang5.jpg in Resources */,
+				BD24AF82202EFD09001DB37A /* korean_barbecue1.jpg in Resources */,
+				BD24AF75202EFCC6001DB37A /* gimbap5.jpg in Resources */,
+				BD24AEC4202EAF12001DB37A /* FlickrFoods.plist in Resources */,
+				BD24AF90202EFD4F001DB37A /* tteok_bokki6.jpg in Resources */,
+				BD24AF89202EFD31001DB37A /* naengmyeon3.jpg in Resources */,
+				BD24AFAC202F105E001DB37A /* samyetang8.jpg in Resources */,
+				BD24AF84202EFD10001DB37A /* korean_barbecue3.jpg in Resources */,
+				BD24AF78202EFCD2001DB37A /* japchae3.jpg in Resources */,
+				BD24AF63202EF136001DB37A /* bulgogi2.jpg in Resources */,
+				BD24AF67202EF160001DB37A /* bulgogi6.jpg in Resources */,
+				BD24AF8F202EFD48001DB37A /* tteok_bokki5.jpg in Resources */,
+				BD24AF64202EF144001DB37A /* bulgogi3.jpg in Resources */,
+				BD24AF8A202EFD34001DB37A /* naengmyeon5.jpg in Resources */,
+				BD24AF6A202EF186001DB37A /* dotorimuk2.jpg in Resources */,
+				BD24AF87202EFD20001DB37A /* naengmyeon1.jpg in Resources */,
+				BD24AF79202EFCD7001DB37A /* japchae4.jpg in Resources */,
+				BD24AF71202EF1CA001DB37A /* gimbap1.jpg in Resources */,
+				BD24AF8E202EFD45001DB37A /* tteok_bokki4.jpg in Resources */,
+				BD24AF7C202EFCE7001DB37A /* jjambbong1.jpg in Resources */,
+				BD24AF6E202EF1A2001DB37A /* gamjatang1.jpg in Resources */,
+				BD24AF6B202EF18E001DB37A /* dotorimuk3.jpg in Resources */,
 				BD24AE99202EABF0001DB37A /* Assets.xcassets in Resources */,
+				BD24AF69202EF182001DB37A /* dotorimuk1.jpg in Resources */,
+				BD24AF7E202EFCF2001DB37A /* jjambong3.jpg in Resources */,
 				BD24AE97202EABF0001DB37A /* Main.storyboard in Resources */,
+				BD24AF9D202F0C2C001DB37A /* doenjang4.jpg in Resources */,
+				BD24AF74202EFCC2001DB37A /* gimbap4.jpg in Resources */,
+				BD24AFA6202F0F01001DB37A /* samgyetang6.jpg in Resources */,
+				BD24AF9F202F0CDB001DB37A /* samgyetang1.jpg in Resources */,
+				BD24AFA4202F0E6E001DB37A /* samgyetang4.jpg in Resources */,
+				BD24AFA2202F0DFE001DB37A /* samgyetang3.jpg in Resources */,
+				BD24AF7D202EFCEB001DB37A /* jjambbong2.jpg in Resources */,
+				BD24AF88202EFD2E001DB37A /* naengmyeon2.jpg in Resources */,
+				BD24AF86202EFD1C001DB37A /* korean_barbecue5.jpg in Resources */,
+				BD24AF99202F084E001DB37A /* doenjang2.jpg in Resources */,
+				BD24AF85202EFD18001DB37A /* korean_barbecue4.jpg in Resources */,
+				BD24AF7A202EFCDF001DB37A /* japchae5.jpg in Resources */,
+				BD24AF9B202F0B45001DB37A /* deonjang3.jpg in Resources */,
+				BD24AF81202EFD06001DB37A /* kimchi_stew3.jpg in Resources */,
+				BD24AF77202EFCCF001DB37A /* japchae2.jpg in Resources */,
+				BD24AF7F202EFCFF001DB37A /* kimchi_stew1.jpg in Resources */,
+				BD24AF97202F074A001DB37A /* doenjang1.jpg in Resources */,
+				BD24AF62202EF129001DB37A /* bulgogi1.jpg in Resources */,
+				BD24AFAA202F0FBF001DB37A /* samgyetang7.jpg in Resources */,
+				BD24AF91202EFD52001DB37A /* tteok_bokki7.jpg in Resources */,
+				BD24AF66202EF15B001DB37A /* bulgogi5.jpg in Resources */,
+				BD24AF6C202EF193001DB37A /* dotorimuk4.jpg in Resources */,
+				BD24AF73202EF1DD001DB37A /* gimbap3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +1092,12 @@
 			files = (
 				BD24AE94202EABF0001DB37A /* ViewController.swift in Sources */,
 				BD24AE92202EABF0001DB37A /* AppDelegate.swift in Sources */,
+				BD24AF93202F02BB001DB37A /* FlickrImage.swift in Sources */,
+				BD24AEC9202EE503001DB37A /* RemoteRecords.swift in Sources */,
+				BD24AFB0202F3FBA001DB37A /* FoodChoiceController.swift in Sources */,
+				BD24AECD202EE622001DB37A /* RemoteFlickrField.swift in Sources */,
+				BD24AFAE202F1834001DB37A /* FlickrImageCell.swift in Sources */,
+				BD24AECB202EE55F001DB37A /* CKHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +1263,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Seoul Tourism Uploader/Seoul Tourism Uploader.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9J39WJJ9G;
 				INFOPLIST_FILE = "Seoul Tourism Uploader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ChangzhouPanda.Seoul-Tourism-Uploader";
@@ -440,7 +1279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Seoul Tourism Uploader/Seoul Tourism Uploader.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9J39WJJ9G;
 				INFOPLIST_FILE = "Seoul Tourism Uploader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ChangzhouPanda.Seoul-Tourism-Uploader";
